@@ -13,8 +13,7 @@ You can pass arguments to the BB code or you can disable them.
 - **showinfo**: Default: "on". In case of "off" the title of the video and other information will be hidden.
 - **width**: Default: 560. Width in pixels
 - **height**: Default: 315. Height in pixels
-</ul>
- 
+
 ## Examples
 
 ### BB codes
