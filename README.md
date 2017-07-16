@@ -40,7 +40,7 @@ You can pass arguments to the BB code or you can disable them.
     echo YBB\ybb($text, ['nocookie' => 'on']);
     echo YBB\ybb($text, ['nocookie' => 'on'], ['width', 'height']);
     
-    Instead of "on", you can always write "yes", "1", or "true"
-    Instead of "off", you can always write "no", "0" or "false"
+Instead of "on", you can always write "yes", "1", or "true"
+Instead of "off", you can always write "no", "0" or "false"
     
 Run [demo.php](demo.php) for a working demo.
