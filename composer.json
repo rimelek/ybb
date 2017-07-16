@@ -1,0 +1,16 @@
+{
+  "name": "rimelek/ybb",
+  "description": "BB Code interpreter for youtube videos",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Takács Ákos",
+      "email": "rimelek@it-sziget.hu",
+      "homepage": "https://it-sziget.hu"
+    }
+  ],
+  "autoload": {
+    "files": ["functions.php"]
+  }
+}
