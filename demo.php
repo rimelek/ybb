@@ -17,7 +17,7 @@ $texts = [
     '[youtube]http://youtu.be/%s[/youtube]',
     '[youtube]//youtu.be/%s[/youtube]',
     '[youtube suggestions=off]%s[/youtube]',
-    '[youtube width=350 height=300 nocookie controls=off]%s[/youtube]'
+    '[youtube width=350 height=300 nocookie controls=off]%s[/youtube]',
 ];
 
 if (!$yid) {
