@@ -42,7 +42,7 @@ function ybb($text, array $defaultOptions = [], array $allowOverride = [])
         '0' => false,
     ];
 
-    return preg_replace_callback('~\[youtube(?P<args>[^\]]*)](?:(?:(?:(?P<scheme>https?):)?//(?:(?:www\.)?youtube\.[a-z]{2,}/watch\?v=|youtu\.be/))?(?P<id>.*?))\[/youtube]~', function($matches) use ($defaultOptions, $allowOverride, $bools) {
+    return preg_replace_callback('~\[youtube(?P<args>[^\]]*)](?:(?:(?:(?P<scheme>https?):)?//(?:(?:www\.)?youtube\.[a-z]{2,}/watch\?([^&]*&)?v=|youtu\.be/))?(?P<id>[^&]*?))\[/youtube]~', function($matches) use ($defaultOptions, $allowOverride, $bools) {
         $matches += [
             'schema' => '',
             'id' => '',

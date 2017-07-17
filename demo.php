@@ -8,6 +8,8 @@ $yid = filter_input(INPUT_GET, 'yid');
 
 $texts = [
     '[youtube showinfo=off]https://www.youtube.com/watch?v=%s[/youtube]',
+    '[youtube showinfo=off]https://www.youtube.com/watch?v=%s&some=thing[/youtube]',
+    '[youtube showinfo=off]https://www.youtube.com/watch?some=thing&v=%s[/youtube]',
     '[youtube]https://youtube.com/watch?v=%s[/youtube]',
     '[youtube]http://www.youtube.com/watch?v=%s[/youtube]',
     '[youtube]//www.youtube.com/watch?v=%s[/youtube]',
